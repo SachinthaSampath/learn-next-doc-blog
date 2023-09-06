@@ -46,7 +46,7 @@ export default function Home({ allPostsData }) {
 export async function getStaticProps() {
   //allPostData is fetched and sent to the page component from this
   const allPostsData = getSortedPostsData();
-  console.log(allPostsData);
+  // console.log(allPostsData);
   return {
     props: { allPostsData },
     //in page ->  ({allPostdata})
